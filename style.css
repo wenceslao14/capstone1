@@ -147,7 +147,7 @@ body{
 
 #projects{
 	color: lightsalmon;
-	background: url(bg.png) no-repeat;
+	background: url(./images/bg.png) no-repeat;
 }
 
 #projects h2{
@@ -188,7 +188,7 @@ body{
 
 #tools{
 
-	background: url(./chip.jpg) no-repeat; 
+	background: url(./images/chip.jpg) no-repeat; 
 	background-position: center;
 	background-size: cover;
 	display: flex;

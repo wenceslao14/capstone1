@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Pacifico', cursive;
+	font-family: 'Pixelify Sans', cursive;
 }
 
 body{
@@ -47,8 +48,8 @@ body{
 }
 
 .home {
-	height: 95vh;
-	background: url(pic.png) no-repeat;
+	height: 90vh;
+	background: url("./images/tech.jpg");
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -64,10 +65,12 @@ body{
 	padding: 15%;
 	height: 50vh;
 	border-radius: 10rem;
+	margin-top: ;
 }
 
 
 .home-content h1{
+	color: lightseagreen;
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.2;
@@ -168,7 +171,7 @@ body{
 }
 
 #api h5{
-	color: blueviolet;
+	color: lightseagreen;
 }
 
 #api p{
@@ -176,7 +179,7 @@ body{
 }
 
 #react h5{
-	color: gold;
+	color: lightseagreen;
 }
 
 #react p{
@@ -188,12 +191,15 @@ body{
 
 #tools{
 
-	background: url(./images/chip.jpg) no-repeat; 
+	background: url("./images/tools.png");
 	background-position: center;
 	background-size: cover;
 	display: flex;
 	color: dodgerblue;
-	background; white-space;
+}
+
+#contact{
+	background-color: black;
 }
 
 #contact h2{
